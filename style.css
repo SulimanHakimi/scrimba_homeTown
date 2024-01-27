@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+body{
+  background-color: #dfdfdf;
+}
+.container {
+  margin: 0px 20%;
+}
+.first-img,.p-card,.topActivities{
+  width: 820px;
+  height: 350px;
+}
+.first-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  background-image: url("https://i.ytimg.com/vi/ZWaTFL5Mbd0/maxresdefault.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.first-img h1 {
+  background-color: #1d3557;
+  border-radius: 10px;
+  padding: 8px 15px;
+  color: white;
+  font-size: 32px;
+}
+.first-img p {
+  background-color: #457b9d;
+  font-size: 19px;
+  color: white;
+  padding: 7px 13px;
+  border-radius: 10px;
+}
+/* end sec 1 */
+.topActivities {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  background-color: #F1FAEE;
+}
+
+.activitiList {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.activiti{
+  height: 227px;
+  width: 198px;
+  padding: 0px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.activiti h3{
+  font-size: 16px;
+  font-weight: 700;
+}
+.activiti p{
+  font-weight: 400;
+}
+.activiti img {
+  border-radius: 50%;
+  background-position: center;
+  width: 100px;
+  height: 100px;
+}
+.p-card{
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card{
+  background-color: #A8DADC;
+  box-shadow: 0px 6px #1D3557;
+  color: #1D3557;
+  height: 294px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 0px 10px;
+  border-radius: 10px;
+}
+.card img{
+  width: 180px;
+  border-radius: 10px;
+  height: 248.67px;
+
+}
+.card-cont{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  flex-direction: column;
+}
+.card-cont h4{
+  font-weight: 700;
+}
